@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/public/images/bg-birthday.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.wrapper {
+  display: block;
+  padding-top: 32px;
+}
+
+.image-container {
+  width: 600px;
+  margin: 0 auto 32px;
+}
+
+@media (max-width: 660px) {
+  .image-container {
+    width: 325px;
+  }
+}
+
+.image-container > img {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  object-fit: contain;
+  object-position: center;
+}
+
+.slide-item-img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  width: 200px;
+}
