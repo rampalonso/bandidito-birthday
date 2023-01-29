@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/public/images/bg-birthday.jpg");
+  background-image: url("./public/images/bg-birthday.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
