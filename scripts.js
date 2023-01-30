@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
     drag: 'free',
     focus: 'center',
     perPage: 8,
+    arrows: false,
+    pagination: false,
     autoScroll: {
       speed: 1,
     },
